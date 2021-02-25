@@ -36,7 +36,7 @@ public class BoardServiceImpl {
 	}
 
 	// content_view
-	public BoardVO getBoard(int getbId) {///
+	public BoardVO getBoard(int getbId) {
 
 		return mapper.getContent(getbId);
 	}
@@ -48,17 +48,17 @@ public class BoardServiceImpl {
 	}
 
 	// 글작성
-	public int insertBoard(BoardVO boardVO) {///
+	public int insertBoard(BoardVO boardVO) {
 		return mapper.getInsert(boardVO);
 	}
 
 	// 글삭제
-	public void remove(int getbId) {///
+	public void remove(int getbId) {
 		mapper.getRemove(getbId);
 	}
 
 	// 글수정
-	public void modifyBoard(BoardVO boardVO) {///
+	public void modifyBoard(BoardVO boardVO) {
 		mapper.getUpdate(boardVO);
 	}
 
