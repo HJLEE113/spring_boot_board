@@ -76,7 +76,7 @@ public class BoardController {
 	}
 
 	// 글수정
-	@PostMapping("/board/{bId}")
+	@PutMapping("/board/{bId}")
 	public ResponseEntity<String> update(BoardVO boardVO) {
 		ResponseEntity<String> entity = null;
 		boardService.modifyBoard(boardVO);

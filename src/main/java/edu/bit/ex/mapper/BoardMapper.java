@@ -24,7 +24,7 @@ public interface BoardMapper {
 
 	public void getRemove(int getbId);
 
-	public void getUpdate(BoardVO boardVO);
+	public int getUpdate(BoardVO boardVO);
 
 	public void getReplyUpdate(BoardVO boardVO);
 
